@@ -7,33 +7,35 @@
 html,
 body,
 
-/*Enables the wraping adjusting*/
-.wrapper {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 
-/*Background*/
+  /*Background*/
 body {
-  font-family: sans-serif;
-  background-color: #172c41;
-}
+    font-family: sans-serif;
+    background-color: #172c41;
+  }
 
+  /*Enables the wraping adjusting*/
+.wrapper {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .wrapper {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
 /*"Password Generator" Text*/
 header {
-  text-align: center;
-  padding: 20px;
-  padding-top: 0px;
-  color: hsl(177, 49%, 33%);
-}
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+    color: hsl(177, 49%, 33%);
+  }
 
-.wrapper {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 /*"Generate a Password" Text*/
 .card {
@@ -49,28 +51,28 @@ header {
 }
 
 .card-header::after {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
-}
+    content: " ";
+    display: block;
+    width: 100%;
+    background: #e7e9eb;
+    height: 2px;
+  }
 
 .card-body {
-  min-height: 100px;
-}
-
+    min-height: 100px;
+  }
+  
 .card-footer {
-  text-align: center;
-}
+    text-align: center;
+  }
 
 .card-footer::before {
-  content: " ";
-  display: block;
-  width: 100%;
-  background: #e7e9eb;
-  height: 2px;
-}
+    content: " ";
+    display: block;
+    width: 100%;
+    background: #e7e9eb;
+    height: 2px;
+  }
 
 .card-footer::after {
   content: " ";
